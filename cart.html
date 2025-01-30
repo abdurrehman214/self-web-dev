@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Product Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <nav class="navbar navbar-expand-lg bg-light text-dark"
+        style="background: linear-gradient(rgb(93, 160, 208),rgba(75, 108, 197, 0.616));">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h3><b><u>Fashion Spot</u></b></h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://api.whatsapp.com/send?phone=923282630997"><b>Link</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./shop.html"><b>Shop-Now</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <b>View-More</b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./shop.html">Shop-Now</a></li>
+                  <li><a class="dropdown-item" href="./about.html">About us</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2 bg-secondary" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark " type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    
+    
+            <h1>Our Products</h1>
+            <p>Explore our wide range of products</p>
+        </header>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="./assets/p17.jpg" class="card-img-top" alt="Product Image" height="500px">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mens Green Short</h5>
+                        <p><strong class="text-success">Rs. 999</strong> <del class="text-muted">Rs. 1,700</del></p>
+                        <p>Availability: <span class="text-success">200 in stock</span></p>
+                        <div class="d-flex justify-content-center align-items-center my-3">
+                            <button class="btn btn-outline-secondary" onclick="changeQuantity(-1)">-</button>
+                            <span id="quantity" class="mx-3 fw-bold">1</span>
+                            <button class="btn btn-outline-secondary" onclick="changeQuantity(1)">+</button>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-warning btn-custom" onclick="buynow()">Buy Now</button>
+                            <button class="btn btn-success btn-custom" onclick="addtocart()">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="./cart.js"></script>
+</html>

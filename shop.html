@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styl.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <header class="bg-primary text-white text-center py-4">
+    <nav class="navbar navbar-expand-lg bg-light text-dark"
+    style="background: linear-gradient(rgb(93, 160, 208),rgba(75, 108, 197, 0.616));">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <h3><b><u>Fashion Spot</u></b></h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://api.whatsapp.com/send?phone=923282630997"><b>Link</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="./shop.html"><b>Shop-Now</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b>View-More</b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./shop.html">Shop-Now</a></li>
+              <li><a class="dropdown-item" href="./about.html">About us</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2 bg-secondary" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark " type="submit">Search</button>
+        </form>
+      </div> -->
+    </div>
+  </nav>
+
+
+        <h1>Our Products</h1>
+        <p>Explore our wide range of products</p>
+    </header>
+
+    
+    <main class="container my-5">
+        <div class="row justify-content-center row-cols-1 row-cols-md-6 g-4 text-center">
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <a href="./cart.html"><img src="./assets/p17.jpg" class="card-img-top" alt="Product 1"></a>
+                    <div class="card-body">
+                        <div class="price-tag">
+                            <span class="currency">PKR</span>
+                            <span class="amount">999</span>
+                            <span class="cents">.99</span>
+                        </div>
+                        <div class="description">
+                            <h3>Mens Short</h3>
+                            <p>Hot-Sale</p>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="./cart.html"> <button class="btn btn-primary">Buy Now</button></a>
+                    
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <a href="./p2.html"><img src="./assets/p2.jpg" class="card-img-top" alt="Product 2"></a>
+                    <div class="card-body">
+                        <div class="price-tag">
+                            <span class="currency">PKR</span>
+                            <span class="amount">1299</span>
+                            <span class="cents">.99</span>
+                        </div>
+                        <div class="description">
+                            <h3> Classic Grey T-Shirt</h3>
+                            <p>Hot-Sale</p>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="./p2.html"> <button class="btn btn-primary">Buy Now</button></a>
+                    
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="./assets/p3.jpg" class="card-img-top" alt="Product 3"></a>
+                    <div class="card-body">
+                        <div class="price-tag">
+                            <span class="currency">PKR</span>
+                            <span class="amount">1399</span>
+                            <span class="cents">.99</span>
+                        </div>
+                        <div class="description">
+                            <h3>Mens Hoddie</h3>
+                            <p>Hot-Sale</p>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="./p3.html"> <button class="btn btn-primary">Buy Now</button></a>
+                    
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="./assets/p4.jpg" class="card-img-top" alt="Product 4"></a>
+                    <div class="card-body">
+                        <div class="price-tag">
+                            <span class="currency">PKR</span>
+                            <span class="amount">1499</span>
+                            <span class="cents">.99</span>
+                        </div>
+                        <div class="description">
+                            <h3>Mens T-Shirt And Shorts</h3>
+                            <p>Hot-Sale</p>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="./p4.html"> <button class="btn btn-primary">Buy Now</button></a>
+                    
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <a href=""><img src="./assets/p5.jpg" class="card-img-top" alt="Product 5"></a>
+                    <div class="card-body">
+                        <div class="price-tag">
+                            <span class="currency">PKR</span>
+                            <span class="amount">1599</span>
+                            <span class="cents">.99</span>
+                        </div>
+                        <div class="description">
+                            <h3>Grey Jeans Pant</h3>
+                            <p>Hot-Sale</p>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="./p5.html"> <button class="btn btn-primary">Buy Now</button></a>
+                    
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col">
+                <div class="card h-100">
+                    <a href="./p6.html"><img src="./assets/p6.jpg" class="card-img-top" alt="Product 6"></a>
+                    <div class="card-body">
+                        <div class="price-tag">
+                            <span class="currency">PKR</span>
+                            <span class="amount">1699</span>
+                            <span class="cents">.99</span>
+                        </div>
+                        <div class="description">
+                            <h3>Grey Leather Jacket</h3>
+                            <p>Hot-Sale</p>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="./"> <button class="btn btn-primary">Buy Now</button></a>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="card h-100">
+                <a href="./p7.html"><img src="./assets/p7.jpg" class="card-img-top" alt="Product 7"></a>
+                <div class="card-body">
+                    <div class="price-tag">
+                        <span class="currency">PKR</span>
+                        <span class="amount">1799</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <div class="description">
+                        <h3>Mens Black Leather Jacket</h3>
+                        <p>Hot-Sale</p>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="./p7.html"> <button class="btn btn-primary">Buy Now</button></a>
+                
+                </div>
+            </div>
+            <div class="card h-100">
+                <a href=""><img src="./assets/p8.jpg" class="card-img-top" alt="Product 8"></a>
+                <div class="card-body">
+                    <div class="price-tag">
+                        <span class="currency">PKR</span>
+                        <span class="amount">18999</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <div class="description">
+                        <h3>Mens Black Leather Jacket</h3>
+                        <p>Hot-Sale</p>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="./p8.html"> <button class="btn btn-primary">Buy Now</button></a>
+                
+                </div>
+            </div>
+            <div class="card h-100">
+                <a href="p9.html"><img src="./assets/p9.jpg" class="card-img-top" alt="Product 9"></a>
+                <div class="card-body">
+                    <div class="price-tag">
+                        <span class="currency">PKR</span>
+                        <span class="amount">1999</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <div class="description">
+                        <h3>Mens Blue T-Shirt</h3>
+                        <p>Hot-Sale</p>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="./p9.html"> <button class="btn btn-primary">Buy Now</button></a>
+                
+                </div>
+            </div>
+            <div class="card h-100">
+                <a href="p10.html"><img src="./assets/p10.jpg" class="card-img-top" alt="Product 10"></a>
+                <div class="card-body">
+                    <div class="price-tag">
+                        <span class="currency">PKR</span>
+                        <span class="amount">2099</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <div class="description">
+                        <h3>Mens Hoddie</h3>
+                        <p>Hot-Sale</p>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="./p10.html"> <button class="btn btn-primary">Buy Now</button></a>
+                
+                </div>
+            </div>
+            <div class="card h-100">
+                <a href="p11.html"><img src="./assets/p11.jpg" class="card-img-top" alt="Product 11"></a>
+                <div class="card-body">
+                    <div class="price-tag">
+                        <span class="currency">PKR</span>
+                        <span class="amount">2199</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <div class="description">
+                        <h3>Mens Dual Pocket Jacket</h3>
+                        <p>Hot-Sale</p>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="./p11.html"> <button class="btn btn-primary">Buy Now</button></a>
+                
+                </div>
+            </div>
+            <div class="card h-100">
+                <a href="p12.html"><img src="./assets/p12.jpg" class="card-img-top" alt="Product 12"></a>
+                <div class="card-body">
+                    <div class="price-tag">
+                        <span class="currency">PKR</span>
+                        <span class="amount">22999</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <div class="description">
+                        <h3>Mens-Black Narrow Pant</h3>
+                        <p>Hot-Sale</p>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                   <a href="./p12.html"> <button class="btn btn-primary">Buy Now</button></a>
+
+                   
+                </div>
+            </div>
+            <div class="card h-100">
+                <a href="p13.html"></a><img src="./assets/p13.jpg" class="card-img-top" alt="Product 13"></a>
+                <div class="card-body">
+                    <div class="price-tag">
+                        <span class="currency">PKR</span>
+                        <span class="amount">2399</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <div class="description">
+                        <h3>Mens Grey Sports Trouser</h3>
+                        <p>Hot-Sale</p>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="./p13.html"> <button class="btn btn-primary">Buy Now</button></a>
+                
+                </div>
+            </div>
+            <div class="card h-100">
+                <a href="p14.html"><img src="./assets/p14.jpg" class="card-img-top" alt="Product 14"></a>
+                <div class="card-body">
+                    <div class="price-tag">
+                        <span class="currency">PKR</span>
+                        <span class="amount">2499</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <div class="description">
+                        <h3>Mens White Leather Jacket</h3>
+                        <p>Hot-Sale</p>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="./p14.html"> <button class="btn btn-primary">Buy Now</button></a>
+                
+                </div>
+            </div>
+            <div class="card h-100">
+                <a href="p15.html"><img src="./assets/p15.jpg" class="card-img-top" alt="Product 15"></a>
+                <div class="card-body">
+                    <div class="price-tag">
+                        <span class="currency">PKR</span>
+                        <span class="amount">2599</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <div class="description">
+                        <h3>Mens ---Grey-Shirt</h3>
+                        <p>Hot-Sale</p>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="./p15.html"> <button class="btn btn-primary">Buy Now</button></a>
+                
+                </div>
+            </div>
+            <div class="card h-100">
+                <a href="p16.html"><img src="./assets/p16.jpg" class="card-img-top" alt="Product 16"></a>
+                <div class="card-body">
+                    <div class="price-tag">
+                        <span class="currency">PKR</span>
+                        <span class="amount">2699</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <div class="description">
+                        <h3>Mens Classic Check Style Shirt</h3>
+                        <p>Hot-Sale</p>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="./p16.html"> <button class="btn btn-primary">Buy Now</button></a>
+                
+                </div>
+            </div>
+        
+        </div>
+
+        </div>
+    </main>
+    
+    <!-- ``` -->
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Your Company. All rights reserved.</p>
+    </footer>
+
+   
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
